@@ -37,7 +37,7 @@ var defaultSettings = {
   debugcss: false, // Always use default COMMANDBARCSS
   scrollduration: 500,
   zoomfactor: 0.10,
-  configpath: '/home/manuflya/mflova-linux-setup/mflova-chrome-setup/cvimrc',
+  configpath: '/home/manuflya/mflova-linux-setup/mflova-chrome-setup/chromium-vim/cvimrc',
   locale: '',
   mapleader: '\\',
   timeoutlen: 1000,

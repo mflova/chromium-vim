@@ -1,0 +1,139 @@
+let mapleader = " "
+map <C-z> lastClosedTab
+map h :history<Space>
+map H :history!<Space>
+map T :buffer<Space>
+
+map b :bookmarks<Space>
+map B :bookmarks!<Space>
+
+" Webs
+map wj :tabnew https://flyability.atlassian.net/jira/software/c/projects/GEU/boards/99<CR> 
+map wg :tabnew https://gmail.com<CR> 
+map wd :tabnew https://drive.com<CR> 
+map wc :tabnew https://calendar.google.com<CR> 
+map wh :tabnew https://app.holaspirit.com/auth<CR> 
+map wo :tabnew https://flyability.odoocloud.ch/web#home<CR> 
+
+map WJ :tabnew https://flyability.atlassian.net/jira/software/c/projects/GEU/boards/99<CR> 
+map WG :tabnew https://gmail.com<CR> 
+map WD :tabnew https://drive.com<CR> 
+map WC :tabnew https://calendar.google.com<CR> 
+map WH :tabnew https://app.holaspirit.com/auth<CR> 
+map WO :tabnew https://flyability.odoocloud.ch/web#home<CR> 
+"map <C-s> openSearchBar
+"map <C-r> openSearchBarReverse
+"map <Leader>t :newtab<CR>
+"unmap <C-6> B b t r
+"map t :buffer<Space>
+"map b lastUsedTab
+"map B createBookmark
+"map <BS> goBack
+"map <C-x>k closeTab
+"map <C-x>b     :buffer<Space>
+"map <C-x><C-b> :bookmarks<Space>
+"map <C-x>r :history<Space>
+"command g tabnew google<Space>
+" Script hints
+"shareLink(link) -> {{
+"  alert(link.href);
+"}}
+
+
+" show the heads-up-display	
+set hud
+    
+" use regexp in find mode	
+set regexp
+    
+" ignore search case in find mode	
+set ignorecase
+    
+" fade effect when toggling link hints
+set linkanimations
+
+" <C-n> and <C-p> to cycle through completion results (requires you to
+" set the nextCompletionResult keybinding in the chrome://extensions page (bottom right)	
+set cncpcompletion
+
+" case-insensitive find mode searches except when input contains a capital letter	
+set smartcase
+
+" auto-highlighting find mode matches when input length is greater thant two 	
+set incsearch
+
+" (numerichints required) type text in the link to narrow down numeric hints	
+set typelinkhints
+
+" hide the mouse cursor when scrolling (useful for Linux, which doesn't auto-hide the cursor on keydown)	
+set autohidecursor
+
+" allows websites to automatically focus an input box when they are first loaded	
+set noautofocus
+
+" use insert mappings to navigate the cursor in text boxes (see bindings below)	
+set insertmappings
+
+" Open new tabs like Chrome does rather than next to the currently opened tab	
+set nonativelinkorder
+
+" disable cVim on the sites matching one of the patterns
+let blacklists = ["https://inbox.google.com/*","https://earth.google.com/*"]
+
+" number of results displayed in the command bar	
+let searchlimit = 30
+
+" time to wait for a <Leader> mapping in (millis)
+let timeoutlen = 1000
+
+" milliseconds to wait before taking input after opening a link hint with 
+" typelinkhints and numerichints enabled integer 
+let typelinkhintsdelay = 50
+
+" use smooth scrolling	
+set smoothscroll
+
+" integer the duration of smooth scrolling
+let scrollduration = 1000
+
+" number of pixels scrolled when using scrollUp and scrollDown	
+let scrollstep = 100
+
+" full page scroll percent
+let fullpagescrollpercent = 85
+
+" " integer the step size when zooming the page in/out 0.
+" let zoomfactor = 0.1	                        
+" use only the specified search engines
+let completionengines = []
+
+" set the default search engine	
+let defaultengine = "google"
+
+" set the locale of the site being completed/searched on (see example configuration below)	
+let locale = ""
+
+" the directory to replace ~ when using the file command
+let homedirectory = ""
+
+" the pattern looked for when navigating a page's back button	
+let previousmatchpattern = "((?!last)(prev(ious)?|back|«|less|<|‹| )+)"
+
+" the pattern looked for when navigation a page's next button	
+let nextmatchpattern = "((?!first)(next|more|>|›|»|forward| )+)"
+
+" set the default characters to be used in link hint mode	
+let hintcharacters = "asdfgqwertzxcvb"
+
+" command bar position
+let barposition = "top"
+    
+" imap <C-k> deleteToEnd
+" imap <C-e> endOfLine
+     
+" the highlight color for the current find match	
+let activehighlight =	"#ff9632"
+
+" the highlight color in find mode	
+let highlight = "#ffff00"
+
