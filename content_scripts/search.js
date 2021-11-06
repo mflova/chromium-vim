@@ -26,7 +26,7 @@ Search.nextResult = function(reverse) {
     if (Command.input.value.length) {
       return false;
     }
-    return Command.complete('');
+    return false;
   }
 
   if (this.index === null) {
