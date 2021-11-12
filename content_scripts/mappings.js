@@ -75,32 +75,6 @@ Mappings.defaults = [
   ['Wh',        ':tabnew https://app.holaspirit.com/auth<CR>'],
   ['Wo',        ':tabnew https://flyability.odoocloud.ch/web#home<CR>'],
   ['Wb',        ':tabnew https://bitbucket.org/dashboard/overview<CR>'],
-
-// Repos
-  ['re',       ':open https://bitbucket.org/Flyability/eliospy/src/develop/<CR>'],
-  ['rv',       ':open https://bitbucket.org/Flyability/gaston_validation_tests/src/develop/<CR>'],
-  ['rb',       ':open https://bitbucket.org/Flyability/build_gaston/src/develop/<CR>'],
-  ['rr',       ':open https://bitbucket.org/Flyability/rovio/src/develop/<CR>'],
-  ['rg',       ':open https://bitbucket.org/Flyability/gastonpy/src/develop/<CR>'],
-// New tab variants for repositories
-// #1
-  ['rE',       ':tabnew https://bitbucket.org/Flyability/eliospy/src/develop/<CR>'],
-  ['rV',       ':tabnew https://bitbucket.org/Flyability/gaston_validation_tests/src/develop/<CR>'],
-  ['rB',       ':tabnew https://bitbucket.org/Flyability/build_gaston/src/develop/<CR>'],
-  ['rR',       ':tabnew https://bitbucket.org/Flyability/rovio/src/develop/<CR>'],
-  ['rG',       ':tabnew https://bitbucket.org/Flyability/gastonpy/src/develop/<CR>'],
-// #2
-  ['Re',       ':tabnew https://bitbucket.org/Flyability/eliospy/src/develop/<CR>'],
-  ['Rv',       ':tabnew https://bitbucket.org/Flyability/gaston_validation_tests/src/develop/<CR>'],
-  ['Rb',       ':tabnew https://bitbucket.org/Flyability/build_gaston/src/develop/<CR>'],
-  ['Rr',       ':tabnew https://bitbucket.org/Flyability/rovio/src/develop/<CR>'],
-  ['Rg',       ':tabnew https://bitbucket.org/Flyability/gastonpy/src/develop/<CR>'],
-// #3
-  ['RE',       ':tabnew https://bitbucket.org/Flyability/eliospy/src/develop/<CR>'],
-  ['RV',       ':tabnew https://bitbucket.org/Flyability/gaston_validation_tests/src/develop/<CR>'],
-  ['RB',       ':tabnew https://bitbucket.org/Flyability/build_gaston/src/develop/<CR>'],
-  ['RR',       ':tabnew https://bitbucket.org/Flyability/rovio/src/develop/<CR>'],
-  ['RG',       ':tabnew https://bitbucket.org/Flyability/gastonpy/src/develop/<CR>'],
 ];
 
 Mappings.defaultsClone = Object.clone(Mappings.defaults);
